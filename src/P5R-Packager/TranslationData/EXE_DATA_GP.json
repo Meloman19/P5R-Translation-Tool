@@ -1,0 +1,193 @@
+{
+	"OtherListName": "OTHER_GP",
+	"PCMovieData":
+	{
+		"Comment": "A block with subtitles in EXE",
+		"Section": ".srdata",
+		"Offset": "0x120220",
+		"Size": "0x407A0"
+	},
+	"ChatData": 
+	{
+		"Comment": "Names for icons in the chat",
+		"Section": ".srdata",
+		"Offset": "0xD14C2"
+	},
+	"PtrArray": [
+		{
+			"Comment": "Gallery",
+			"PtrSection": ".rdata",
+			"PtrDataSection": ".srdata",
+			"PtrOffset": "0x5A0FE0",
+			"PtrSize": "0x630"
+		},
+		{
+			"Comment": "Movies",
+			"PtrSection": ".rdata",
+			"PtrDataSection": ".srdata",
+			"PtrOffset": "0x5A5180",
+			"PtrSize": "0x58"
+		},
+		{
+			"Comment": "Movies",
+			"PtrSection": ".rdata",
+			"PtrDataSection": ".srdata",
+			"PtrOffset": "0x5A51E0",
+			"PtrSize": "0x58"
+		},
+		{
+			"Comment": "Movies",
+			"PtrSection": ".rdata",
+			"PtrDataSection": ".srdata",
+			"PtrOffset": "0x5A5240",
+			"PtrSize": "0x58"
+		},
+		{
+			"Comment": "Movies",
+			"PtrSection": ".rdata",
+			"PtrDataSection": ".srdata",
+			"PtrOffset": "0x5A52A0",
+			"PtrSize": "0x58"
+		},
+		{
+			"Comment": "Movies",
+			"PtrSection": ".rdata",
+			"PtrDataSection": ".srdata",
+			"PtrOffset": "0x5A5300",
+			"PtrSize": "0x58"
+		},
+		{
+			"Comment": "Movies",
+			"PtrSection": ".rdata",
+			"PtrDataSection": ".srdata",
+			"PtrOffset": "0x5A5360",
+			"PtrSize": "0x58"
+		},
+		{
+			"Comment": "Movies",
+			"PtrSection": ".rdata",
+			"PtrDataSection": ".srdata",
+			"PtrOffset": "0x5A53C0",
+			"PtrSize": "0x58"
+		},
+		{
+			"Comment": "The Tycoon Game",
+			"PtrSection": ".rdata",
+			"PtrDataSection": ".srdata",
+			"PtrOffset": "0x59B480",
+			"PtrSize": "0x770"
+		},
+		{
+			"Comment": "Item Stats",
+			"PtrSection": ".rdata",
+			"PtrDataSection": ".srdata",
+			"PtrOffset": "0x523D80",
+			"PtrSize": "0x58"
+		},
+		{
+			"Comment": "Item Stats",
+			"PtrSection": ".rdata",
+			"PtrDataSection": ".srdata",
+			"PtrOffset": "0x523F60",
+			"PtrSize": "0x58"
+		},
+		{
+			"Comment": "Item Stats",
+			"PtrSection": ".rdata",
+			"PtrDataSection": ".srdata",
+			"PtrOffset": "0x523FC0",
+			"PtrSize": "0x58"
+		},
+		{
+			"Comment": "Setting up tactics",
+			"PtrSection": ".rdata",
+			"PtrDataSection": ".srdata",
+			"PtrOffset": "0x4B06B0",
+			"PtrSize": "0x210"
+		},
+		{
+			"Comment": "Commands in combat (almost not used)",
+			"PtrSection": ".rdata",
+			"PtrDataSection": ".srdata",
+			"PtrOffset": "0x500",
+			"PtrSize": "0x68"
+		},
+		{
+			"Comment": "Darts",
+			"PtrSection": ".rdata",
+			"PtrDataSection": ".srdata",
+			"PtrOffset": "0x595CD0",
+			"PtrSize": "0x78"
+		},
+		{
+			"Comment": "Darts",
+			"PtrSection": ".rdata",
+			"PtrDataSection": ".srdata",
+			"PtrOffset": "0x595F50",
+			"PtrSize": "0x78"
+		},
+		{
+			"Comment": "Darts",
+			"PtrSection": ".rdata",
+			"PtrDataSection": ".srdata",
+			"PtrOffset": "0x595FD0",
+			"PtrSize": "0x78"
+		},
+		{
+			"Comment": "Darts - Level",
+			"PtrSection": ".rdata",
+			"PtrDataSection": ".srdata",
+			"PtrOffset": "0x595930",
+			"PtrSize": "0x48"
+		},
+		{
+			"Comment": "Darts - Level",
+			"PtrSection": ".rdata",
+			"PtrDataSection": ".srdata",
+			"PtrOffset": "0x595AC0",
+			"PtrSize": "0x48"
+		},
+		{
+			"Comment": "Darts - Level",
+			"PtrSection": ".rdata",
+			"PtrDataSection": ".srdata",
+			"PtrOffset": "0x595B10",
+			"PtrSize": "0x48"
+		},
+		{
+			"Comment": "Street Locations",
+			"PtrSection": ".rdata",
+			"PtrDataSection": ".srdata",
+			"PtrOffset": "0x5416B0",
+			"PtrSize": "0x48"
+		},
+		{
+			"Comment": "Street Locations",
+			"PtrSection": ".rdata",
+			"PtrDataSection": ".srdata",
+			"PtrOffset": "0x541710",
+			"PtrSize": "0x48"
+		},
+		{
+			"Comment": "Street Locations",
+			"PtrSection": ".rdata",
+			"PtrDataSection": ".srdata",
+			"PtrOffset": "0x541760",
+			"PtrSize": "0x48"
+		},
+		{
+			"Comment": "Street Locations",
+			"PtrSection": ".rdata",
+			"PtrDataSection": ".srdata",
+			"PtrOffset": "0x541850",
+			"PtrSize": "0x48"
+		},
+		{
+			"Comment": "Street Locations",
+			"PtrSection": ".rdata",
+			"PtrDataSection": ".srdata",
+			"PtrOffset": "0x5418A0",
+			"PtrSize": "0x48"
+		}
+	]
+}

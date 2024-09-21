@@ -1,0 +1,200 @@
+{
+	"OtherListName": "OTHER_ST",
+	"PCMovieData":
+	{
+		"Comment": "A block with subtitles in EXE",
+		"Section": ".debug",
+		"Offset": "0x42E80",
+		"Size": "0x407C0"
+	},
+	"ChatData": 
+	{
+		"Comment": "Names for icons in the chat",
+		"Section": ".debug",
+		"Offset": "0x1F48C2"
+	},
+	"PtrArray": [
+		{
+			"Comment": "Gallery",
+			"PtrSection": ".code",
+			"PtrDataSection": ".debug",
+			"PtrOffset": "0x91B790",
+			"PtrSize": "0x630"
+		},
+		{
+			"Comment": "Movies",
+			"PtrSection": ".code",
+			"PtrDataSection": ".debug",
+			"PtrOffset": "0x91E930",
+			"PtrSize": "0x58"
+		},
+		{
+			"Comment": "Movies",
+			"PtrSection": ".code",
+			"PtrDataSection": ".debug",
+			"PtrOffset": "0x91E9A0",
+			"PtrSize": "0x58"
+		},
+		{
+			"Comment": "Movies",
+			"PtrSection": ".code",
+			"PtrDataSection": ".debug",
+			"PtrOffset": "0x91EA10",
+			"PtrSize": "0x58"
+		},
+		{
+			"Comment": "Movies",
+			"PtrSection": ".code",
+			"PtrDataSection": ".debug",
+			"PtrOffset": "0x91EA70",
+			"PtrSize": "0x58"
+		},
+		{
+			"Comment": "Movies",
+			"PtrSection": ".code",
+			"PtrDataSection": ".debug",
+			"PtrOffset": "0x91EAD0",
+			"PtrSize": "0x58"
+		},
+		{
+			"Comment": "Movies",
+			"PtrSection": ".code",
+			"PtrDataSection": ".debug",
+			"PtrOffset": "0x91EB30",
+			"PtrSize": "0x58"
+		},
+		{
+			"Comment": "Movies",
+			"PtrSection": ".code",
+			"PtrDataSection": ".debug",
+			"PtrOffset": "0x91EBA0",
+			"PtrSize": "0x58"
+		},
+		{
+			"Comment": "The Tycoon Game",
+			"PtrSection": ".debug",
+			"PtrDataSection": ".debug",
+			"PtrOffset": "0x1A7D40",
+			"PtrSize": "0x440"
+		},
+		{
+			"Comment": "The Tycoon Game",
+			"PtrSection": ".debug",
+			"PtrDataSection": ".debug",
+			"PtrOffset": "0x1A75B0",
+			"PtrSize": "0x440"
+		},
+		{
+			"Comment": "Item Stats",
+			"PtrSection": ".debug",
+			"PtrDataSection": ".debug",
+			"PtrOffset": "0x136550",
+			"PtrSize": "0x58"
+		},
+		{
+			"Comment": "Item Stats",
+			"PtrSection": ".debug",
+			"PtrDataSection": ".debug",
+			"PtrOffset": "0x1365C0",
+			"PtrSize": "0x58"
+		},
+		{
+			"Comment": "Item Stats",
+			"PtrSection": ".debug",
+			"PtrDataSection": ".debug",
+			"PtrOffset": "0x136630",
+			"PtrSize": "0x58"
+		},
+		{
+			"Comment": "Setting up tactics",
+			"PtrSection": ".debug",
+			"PtrDataSection": ".debug",
+			"PtrOffset": "0x125438",
+			"PtrSize": "0x210"
+		},
+		{
+			"Comment": "Команды в бою (почти не используется)",
+			"PtrSection": ".debug",
+			"PtrDataSection": ".debug",
+			"PtrOffset": "0x103350",
+			"PtrSize": "0x68"
+		},
+		{
+			"Comment": "Darts",
+			"PtrSection": ".code",
+			"PtrDataSection": ".debug",
+			"PtrOffset": "0x918ED0",
+			"PtrSize": "0x78"
+		},
+		{
+			"Comment": "Darts",
+			"PtrSection": ".code",
+			"PtrDataSection": ".debug",
+			"PtrOffset": "0x9191A0",
+			"PtrSize": "0x78"
+		},
+		{
+			"Comment": "Darts",
+			"PtrSection": ".code",
+			"PtrDataSection": ".debug",
+			"PtrOffset": "0x919230",
+			"PtrSize": "0x78"
+		},
+		{
+			"Comment": "Darts - Level",
+			"PtrSection": ".code",
+			"PtrDataSection": ".debug",
+			"PtrOffset": "0x918A80",
+			"PtrSize": "0x48"
+		},
+		{
+			"Comment": "Darts - Level",
+			"PtrSection": ".code",
+			"PtrDataSection": ".debug",
+			"PtrOffset": "0x918C60",
+			"PtrSize": "0x48"
+		},
+		{
+			"Comment": "Darts - Level",
+			"PtrSection": ".code",
+			"PtrDataSection": ".debug",
+			"PtrOffset": "0x918CC0",
+			"PtrSize": "0x48"
+		},
+		{
+			"Comment": "Street Locations",
+			"PtrSection": ".code",
+			"PtrDataSection": ".debug",
+			"PtrOffset": "0x8C82C0",
+			"PtrSize": "0x48"
+		},
+		{
+			"Comment": "Street Locations",
+			"PtrSection": ".code",
+			"PtrDataSection": ".debug",
+			"PtrOffset": "0x8C8310",
+			"PtrSize": "0x48"
+		},
+		{
+			"Comment": "Street Locations",
+			"PtrSection": ".code",
+			"PtrDataSection": ".debug",
+			"PtrOffset": "0x8C8380",
+			"PtrSize": "0x48"
+		},
+		{
+			"Comment": "Street Locations",
+			"PtrSection": ".code",
+			"PtrDataSection": ".debug",
+			"PtrOffset": "0x8C83D0",
+			"PtrSize": "0x48"
+		},
+		{
+			"Comment": "Street Locations",
+			"PtrSection": ".code",
+			"PtrDataSection": ".debug",
+			"PtrOffset": "0x8C8480",
+			"PtrSize": "0x48"
+		}
+	]
+}

@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<RootNamespace>P5R_Packager</RootNamespace>
+		<StartupObject>P5R_Packager.Program</StartupObject>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\P5R-TranslationLoader\P5R-TranslationLoader.vcxproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AsmResolver.PE" Version="5.1.0" />
+		<PackageReference Include="K4os.Compression.LZ4" Version="1.3.5" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+		<Reference Include="AuxiliaryLibraries">
+			<HintPath>..\SolutionItems\AuxiliaryLibraries.dll</HintPath>
+		</Reference>
+		<Reference Include="AuxiliaryLibraries.WPF.Wrapper">
+			<HintPath>..\SolutionItems\AuxiliaryLibraries.WPF.Wrapper.dll</HintPath>
+		</Reference>
+		<Reference Include="PersonaEditorLib">
+			<HintPath>..\SolutionItems\PersonaEditorLib.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="TranslationData\DUPL_BMD.json" />
+		<EmbeddedResource Include="TranslationData\DUPL_DDS.json" />
+		<EmbeddedResource Include="TranslationData\EXE_DATA_GP.json" />
+		<EmbeddedResource Include="TranslationData\EXE_DATA_NS.json" />
+		<EmbeddedResource Include="TranslationData\EXE_DATA_ST.json" />
+		<EmbeddedResource Include="TranslationData\ORIGIN_SIZE.json" />
+
+		<EmbeddedResource Condition="'$(Configuration)' == 'Debug'" Include="..\P5R-TranslationLoader\bin\x64\Debug\proxy.dll">
+			<Link>TranslationData\proxy.dll</Link>
+		</EmbeddedResource>
+		
+		<EmbeddedResource Condition="'$(Configuration)' == 'Release'" Include="..\P5R-TranslationLoader\bin\x64\Release\proxy.dll">
+			<Link>TranslationData\proxy.dll</Link>
+		</EmbeddedResource>
+	</ItemGroup>
+
+</Project>
