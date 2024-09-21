@@ -119,3 +119,6 @@ To pack the text into an EXE, you must first make a complete translation (you ca
 For crosswords, a complete translation is also required. Before that, it is enough to delete the file `Translation\TEXT\P5R_crossword.zip` so that no changes are made.
 #### Other text
 There are no restrictions listed above for tables and the main text. You can pack an incomplete translation. If there is no translation, the original text will be used for repacking (if the encoding changes).
+
+### Switch EXE
+For the switch version, the executable file was not fully researched. Some not important text are missing. It doesn't hurt to play.
