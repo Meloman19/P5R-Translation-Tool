@@ -50,8 +50,6 @@ A standard IPS patch will be created for the Switch version.
 
 Otherwise, if you do not specify argument, then for all platforms, the modified executable file will be in the output folder. This method may be suitable only for the Steam version. There are certain difficulties in installing the executable file in Gamepass and Switch version.
 
-#### Note 2:
-
 # Translation Folder
 
 Folder structure example:
