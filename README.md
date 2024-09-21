@@ -109,7 +109,7 @@ To create a translation for the Gamepass version, a decrypted EXE is required. Y
 ### Texture translation
 You need to translate only those textures that are in the attached archive. And you need to keep the directory and file structure!
 
-### Text tranlsation
+### Text translation
 The translation must be entered in the column with the title TRANSL.
 
 ### Text packaging
