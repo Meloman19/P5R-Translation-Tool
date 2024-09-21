@@ -50,11 +50,7 @@ A standard IPS patch will be created for the Switch version.
 
 Otherwise, if you do not specify argument, then for all platforms, the modified executable file will be in the output folder. This method may be suitable only for the Steam version. There are certain difficulties in installing the executable file in Gamepass and Switch version.
 
-
-
 #### Note 2:
-
-To create a translation for the Gamepass version, a decrypted EXE is required. You can get such an executable file, for example, using [UWPDumper](https://github.com/Wunkolo/UWPDumper).
 
 # Translation Folder
 
@@ -105,4 +101,23 @@ To edit the sizes and coordinates of textures in SPD files, you can use PersonaE
 
 To save or open an XML file, you need to right-click on the SPD file in the tree view on the left and click Replace or Save As.
 
-**Important**: you need to translate only those textures that are in the attached archive. And you need to keep the directory and file structure!
+**Important**: 
+
+# Important
+
+### Gamepass EXE
+To create a translation for the Gamepass version, a decrypted EXE is required. You can get such an executable file, for example, using [UWPDumper](https://github.com/Wunkolo/UWPDumper).
+
+### Texture translation
+You need to translate only those textures that are in the attached archive. And you need to keep the directory and file structure!
+
+### Text tranlsation
+The translation must be entered in the column with the title TRANSL.
+
+### Text packaging
+#### EXE
+To pack the text into an EXE, you must first make a complete translation (you can make a draft). Otherwise, there may be errors related to the missing translation in the TRANSL column.
+#### Crossword
+For crosswords, a complete translation is also required. Before that, it is enough to delete the file `Translation\TEXT\P5R_crossword.zip` so that no changes are made.
+#### Other text
+There are no restrictions listed above for tables and the main text. You can pack an incomplete translation. If there is no translation, the original text will be used for repacking (if the encoding changes).
