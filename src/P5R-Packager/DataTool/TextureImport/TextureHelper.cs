@@ -5,6 +5,7 @@ using System.Windows.Media.Imaging;
 using System.Xml.Linq;
 using PersonaEditorLib;
 using PersonaEditorLib.Sprite;
+using PersonaEditorLib.SpriteContainer;
 
 namespace P5R_Packager.DataTool.TextureImport
 {
@@ -12,10 +13,10 @@ namespace P5R_Packager.DataTool.TextureImport
     {
         public static IEnumerable<GameFile> EnumerateDDSExceptSPD(this GameFile gameFile)
         {
-            if (gameFile.GameData.Type == FormatEnum.SPD)
+            if (gameFile.GameData is SPD)
                 yield break;
 
-            if (gameFile.GameData.Type == FormatEnum.DDS)
+            if (gameFile.GameData is DDS)
                 yield return gameFile;
 
             foreach (var sub in gameFile.GameData.SubFiles)

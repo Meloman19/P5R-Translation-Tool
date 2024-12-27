@@ -137,7 +137,7 @@ namespace P5R_Packager.DataTool.TextImport
 
         public bool Import(string relFilePath, GameFile gameFile)
         {
-            var bmdGameFiles = gameFile.GetAllObjectFiles(PersonaEditorLib.FormatEnum.BMD).ToArray();
+            var bmdGameFiles = gameFile.GetAllObjectOfType<BMD>().ToArray();
             if (!bmdGameFiles.Any())
                 return false;
 

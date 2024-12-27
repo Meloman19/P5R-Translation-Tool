@@ -56,7 +56,7 @@ namespace P5R_Packager.DataTool.CrosswordImport
             var fileNameWE = Path.GetFileNameWithoutExtension(fileName).ToLower();
             Name = fileNameWE;
 
-            var bmdGF = pak.SubFiles.Find(x => x.GameData.Type == FormatEnum.BMD);
+            var bmdGF = pak.SubFiles.Find(x => x.GameData is BMD);
             if (bmdGF == null)
                 throw new Exception("Not founded BMD");
             if (bmdGF.Name != $"data/{fileNameWE}.bmd ")
@@ -64,7 +64,7 @@ namespace P5R_Packager.DataTool.CrosswordImport
 
             ParseBMD(bmdGF.GameData as BMD);
 
-            var datGF = pak.SubFiles.Find(x => x.GameData.Type == FormatEnum.DAT);
+            var datGF = pak.SubFiles.Find(x => x.GameData is DAT);
             if (datGF == null)
                 throw new Exception("Not founded DAT");
             if (datGF.Name != $"data/{fileNameWE}.dat ")
@@ -158,7 +158,7 @@ namespace P5R_Packager.DataTool.CrosswordImport
         {
             InsertToBMD();
 
-            var datGF = pak.SubFiles.Find(x => x.GameData.Type == FormatEnum.DAT);
+            var datGF = pak.SubFiles.Find(x => x.GameData is DAT);
             datGF.GameData = new DAT(Field.GetData());
         }
 
@@ -171,7 +171,7 @@ namespace P5R_Packager.DataTool.CrosswordImport
 
         private void InsertToBMD()
         {
-            var bmd = pak.SubFiles.Find(x => x.GameData.Type == FormatEnum.BMD).GameData as BMD;
+            var bmd = pak.SubFiles.Find(x => x.GameData is BMD).GameData as BMD;
             UpdateBMD(bmd, 0, MainQ);
             UpdateBMD(bmd, 1, Answer);
             for (int i = 0; i < SideQ.Count; i++)

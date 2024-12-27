@@ -40,7 +40,7 @@ namespace P5R_Packager.DataTool.TextureImport
 
             var relDirPath = Path.GetDirectoryName(relFilePath);
 
-            var spdGFs = gameFile.GetAllObjectFiles(FormatEnum.SPD).ToArray();
+            var spdGFs = gameFile.GetAllObjectOfType<SPD>().ToArray();
             foreach (var spdGF in spdGFs)
             {
                 var spd = spdGF.GameData as SPD;

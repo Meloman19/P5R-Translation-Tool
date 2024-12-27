@@ -23,7 +23,7 @@ namespace P5R_Packager.DataTool.OtherImport
 
             var relDirPath = Path.GetDirectoryName(relFilePath);
 
-            var datGFs = gameFile.GetAllObjectFiles(FormatEnum.DAT).ToArray();
+            var datGFs = gameFile.GetAllObjectOfType<DAT>().ToArray();
             foreach (var datGF in datGFs)
             {
                 if (Path.GetExtension(datGF.Name).ToUpper() != ".PLG")

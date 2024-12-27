@@ -130,9 +130,9 @@ namespace P5R_Packager.DataTool
                     var newDirPath = Path.GetDirectoryName(newFilePath);
 
                     var anyChange = false;
-                    var gameFile = PersonaEditorLib.GameFormatHelper.OpenFile(Path.GetFileName(file), fileData);
+                    var gameFile = PersonaEditorLib.GameFormatHelper.OpenUnknownFile(Path.GetFileName(file), fileData);
                     if (gameFile == null)
-                        gameFile = new GameFile(Path.GetFileName(file), new DAT(fileData));
+                        gameFile = GameFormatHelper.TryOpenFile<DAT>(Path.GetFileName(file), fileData);
 
                     anyChange |= textImporter.Import(relFilePath, gameFile);
                     anyChange |= tableImporter.Import(relFilePath, gameFile);
