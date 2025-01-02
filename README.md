@@ -6,7 +6,7 @@ Supported versions of the game:
 * Gamepass: 1.0.4
 * Switch: 1.0.2
 
-An example of packing together with pre-unpacked original text and textures is attached in [current archive (21 sep 2024)](https://drive.google.com/file/d/1-nPeoZfIy_sDoG_6VgwVXzoYb5sCO3KQ). **You must download it.**
+An example of packing together with pre-unpacked original text and textures is attached in [current archive (2 jan 2024)](https://drive.google.com/file/d/1-nPeoZfIy_sDoG_6VgwVXzoYb5sCO3KQ). **You must download it.**
 
 # How to use P5R-Packager.exe
 ## Insert translation to CPK
