@@ -1,18 +1,16 @@
 #include <Windows.h>
-#include "UniversalProxyDLL.h"
+#include "UltimateProxyDLL.h"
 #include "hook.h"
 
-BOOL APIENTRY DllMain(HMODULE hModule, DWORD  ul_reason_for_call, LPVOID lpReserved
-)
+BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved)
 {
-	if (ul_reason_for_call == DLL_PROCESS_ATTACH)
+	if (fdwReason == DLL_PROCESS_ATTACH)
 	{
-		DisableThreadLibraryCalls(hModule);
 		try
 		{
 			UPD::MuteLogging();
 			//UPD::OpenDebugTerminal();
-			UPD::CreateProxy(hModule);
+			UPD::CreateProxy(hinstDLL);
 			initTranslate();
 		}
 		catch (std::runtime_error e)
